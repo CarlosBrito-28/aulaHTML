@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Hiperlinks</title>
+</head>
+<body>
+    <h1>Links HTML</h1>
+    <hr />
+    
+    <p>Os links são encontrados em quase todas as páginas da web. 
+        Os links permitem que os usuários cliquem em seu caminho de página para página.</p>
+    <hr />
+
+    <h2>Links HTML - Hiperlinks</h2>
+
+    <p>Links HTML são hiperlinks.</p>
+    <p>Você pode clicar em um link e ir para outro documento.</p>
+    <p>Quando você move o mouse sobre um link, a seta do mouse se transforma em uma mãozinha.</p>
+
+    <blockquote><i><mark> Um link não precisa ser texto. Um link pode ser uma imagem ou qualquer outro elemento HTML!</mark></i></blockquote>
+    <hr />
+
+    <h2>Links HTML - Sintaxe</h2>
+
+    <p>A tag HTML define um hiperlink. Tem a seguinte sintaxe: <strong style="color: red;">&lt;a&gt;</strong></p>
+
+    <p>O atributo mais importante do elemento é o atributo <strong style="color: red;">href</strong> , que indica o destino do link. <strong style="color: red;">&lt;a&gt;</strong></p>
+    
+    <p>O texto do link é a parte que ficará visível para o leitor.</p>
+
+    <p>Clicando no texto do link, enviará o leitor para o endereço URL especificado.</p>
+
+    <div style="background-color: #D3D3D3;">
+        <h3>Exemplo</h3>
+        <p>Este exemplo mostra como criar um link para W3Schools.com:</p>
+        <p>&lt;<strong style="color: red;">a href</strong> ="https://www.w3schools.com/">Visit W3Schools.com!&lt;/a&gt;</p>
+        <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_w3schools" style="color: black;"><strong>Experimente</strong></a>
+    </div>
+
+    <p>Por padrão, os links aparecerão da seguinte forma em todos os navegadores:</p>
+
+    <ul>
+        <li>Um link não visitado é sublinhado e azul</li>
+        <li>Um link visitado é sublinhado e roxo</li>
+        <li>Um link ativo é sublinhado e vermelho</li>
+    </ul>
+
+    <mark><strong>Ponta:</strong> Os links podem, é claro, ser estilizados com CSS, para obter outro olhar!</mark>
+    <hr />
+
+    <h1>Links HTML - O atributo de destino</h1>
+
+    <p>Por padrão, a página vinculada será exibida na janela atual do navegador. Para alterar isso, você deve especificar outro destino para o link.</p>
+    <p>O atributo especifica onde abrir o documento vinculado.<strong style="color: red;"> target</strong></p>
+    <p>O atributo pode ter um dos seguintes valores: <strong style="color: red;"> target</strong></p>
+
+    <ul>
+        <li><strong style="color: red;"> _self </strong>- Inadimplência. Abre o documento em a mesma janela/guia em que foi clicado</li>
+        <li><strong style="color: red;"> _blank </strong>- Abre o documento em uma nova janela ou guia</li>
+        <li><strong style="color: red;"> _parent </strong>- Abre o documento no quadro pai</li>
+        <li><strong style="color: red;"> _top </strong>- Abre o documento no corpo inteiro da janela</li>
+    </ul>
+
+    <div style="background-color: #D3D3D3;">
+        <h3>Exemplo</h3>
+        <p>Use target="_blank" para abrir o documento vinculado em uma nova janela ou guia do navegador:</p>
+        <p>&lt;<strong style="color: red;">a href</strong> ="https://www.w3schools.com/" <strong style="color: red;">target </strong>= "_blank">Visit W3Schools.com!&lt;/a&gt;</p>
+        <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_target" style="color: black;"><strong>Experimente</strong></a>
+    </div>
+    <hr />
+
+    <h1>URLs absolutas versus URLs relativas</h1>
+
+    <p>Ambos os exemplos acima estão usando uma URL absoluta (um endereço da Web completo) no atributo. <strong style="color: red;">href</strong></p>
+
+    <p>Um link local (um link para uma página dentro do mesmo site) é especificado com uma <strong>URL relativa</strong> (sem a parte "https://www")</p>
+
+    <div style="background-color: #D3D3D3;">
+        <h3>Exemplo</h3>
+        &lt;<strong style="color: red;">h2</strong>&gt;Absolute URLs &lt;<strong style="color: red;">/h2</strong>&gt;<br>
+
+        &lt;<strong style="color: red;">p</strong>&gt; &lt;<strong style="color: red;">a href</strong> = "https://www.w3.org/">W3C&lt;<strong style="color: red;">/a</strong>&gt; &lt;<strong style="color: red;">/p</strong>&gt;<br>
+        &lt;<strong style="color: red;">p</strong>&gt; &lt;<strong style="color: red;">a href</strong> = "https://www.google.com/">Google&lt;<strong style="color: red;">/a</strong>&gt; &lt;<strong style="color: red;">/p</strong>&gt;<br><br>
+        
+        &lt;<strong style="color: red;">h2</strong>&gt;Relative URLs &lt;<strong style="color: red;">/h2</strong>&gt;<br>
+
+        &lt;<strong style="color: red;">p</strong>&gt; &lt;<strong style="color: red;">a href</strong> = "html_images.asp">HTML Images&lt;<strong style="color: red;">/a</strong>&gt; &lt;<strong style="color: red;">/p</strong>&gt;<br>
+        &lt;<strong style="color: red;">p</strong>&gt; &lt;<strong style="color: red;">a href</strong> = "/css/default.asp">CSS Tutorial&lt;<strong style="color: red;">/a</strong>&gt; &lt;<strong style="color: red;">/p</strong>&gt;<br><br>
+        <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links" style="color: black;"><strong>Experimente</strong></a>
+    </div>
+    <hr />
+
+
+</body>
+</html>
